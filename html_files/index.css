@@ -1,0 +1,257 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Merienda:wght@300..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    width: auto;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #e4cc90, #ddc8ac, #d8b88b);
+
+}
+
+.header {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+         
+        
+        font-size:xx-large;
+        top: 0;
+        width: auto;
+        
+        background-color: transparent;
+        border-bottom: blue;
+        border-width: 20px;
+
+}
+
+.header2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        width: auto;
+        
+        background-color: transparent;
+        
+        margin-top: 0%;
+        top: 0%;
+}
+
+.nav {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family:cursive;
+    gap: 100px;
+    position: relative;
+    width: auto;
+    background-image: linear-gradient(gray, gray, gray);
+    row-gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    
+  }
+
+
+
+.home-section {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: inherit;
+    font-weight: 1000;
+    
+    
+
+}
+
+.home-section:hover { 
+    transform: scale(1.05);
+}
+
+.event-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    
+}
+
+#dept-pic {
+    object-fit: fill;
+    border-radius: 50px;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 20px;
+    margin-bottom: 200px;
+    border-color: aqua;
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+
+.container1 {
+    display: inline-block;
+    text-align: center;
+}
+
+.container1:hover { 
+    transform: scale(1.05);
+}
+
+.container2 {
+    display:inline-block;
+    text-align:center; 
+}
+
+.container2:hover { 
+    transform: scale(1.05);
+}
+
+.container3 {
+    display:inline-block;
+    text-align:center; 
+}
+
+.container3:hover { 
+    transform: scale(1.05);
+}
+#pic1{
+    object-fit: fill;
+    border-radius: 30px;
+    max-width: 60%;
+    max-height: 60%;
+    margin: 20px;
+    margin-top: 5px;
+    border-color: aqua;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+    transform-origin: center;
+    transform: scale(0) rotate(100deg);
+    
+}
+.container1:hover #pic1 {
+    transform: scale(1);
+}
+
+
+
+#pic2 {
+    object-fit: fill;
+    border-radius: 30px;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 20px;
+    margin-top: 5px;
+    border-color: aqua;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+    transform-origin: center;
+    transform: scale(0) rotate(100deg);
+}
+
+.container2:hover #pic2 {
+    transform: scale(1);
+}
+
+
+#pic3 {
+    object-fit: fill;
+    border-radius: 30px;
+    max-width: 60%;
+    max-height: 60%;
+    margin: 20px;
+    margin-top: 5px;
+    border-color: aqua;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+    transform-origin: center;
+    transform: scale(0) rotate(100deg);
+}
+
+.container3:hover #pic3 {
+    transform: scale(1.05);
+}
+
+
+.study-section {
+    display: flex;
+    margin-top: 300px;
+    flex-direction: row;
+    column-gap: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    margin-bottom: 100px;
+    
+}
+
+.time-table:hover {
+    transform: scale(1.05);
+}
+
+.sem1-material:hover {
+    transform: scale(1.05);
+}
+
+.notes:hover {
+    transform: scale(1.05);
+}
+
+.CB:hover {
+    transform: scale(1.05);
+}
+
+.about-section {
+    display: flex;
+    margin-top: 300px;
+    flex-direction: column;
+    column-gap: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    margin-bottom: 100px;
+    
+}
